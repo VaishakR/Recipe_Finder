@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container for the main content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+/* Ingredients Section */
+.ingredients-section ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.ingredients-section li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Recipes Section */
+.recipes-section ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.recipes-section li {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.recipes-section p {
+  font-size: 1.1rem;
+}
+
+strong {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Loading and No Recipes Message */
+.loading-message,
+.no-recipes-message {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  font-style: italic;
+}
+
+.no-recipes-message {
+  margin-top: 20px;
+}
+
+/* styles/globals.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd; /* Light white background */
+  color: #333; /* Dark gray text color */
+  font-family: 'Inter', Arial, sans-serif; /* Modern sans-serif font */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
